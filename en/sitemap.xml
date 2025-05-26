@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://takagibit18.github.io/hugo-dev/</loc>
-    <lastmod>2025-05-23T15:54:36+08:00</lastmod>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -19,30 +19,6 @@
                 hreflang="en"
                 href="https://takagibit18.github.io/hugo-dev/"
                 />
-  </url><url>
-    <loc>https://takagibit18.github.io/hugo-dev/p/newtest/</loc>
-    <lastmod>2025-05-23T15:54:36+08:00</lastmod>
-  </url><url>
-    <loc>https://takagibit18.github.io/hugo-dev/post/</loc>
-    <lastmod>2025-05-23T15:54:36+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://takagibit18.github.io/hugo-dev/zh-cn/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://takagibit18.github.io/hugo-dev/ar/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://takagibit18.github.io/hugo-dev/post/"
-                />
-  </url><url>
-    <loc>https://takagibit18.github.io/hugo-dev/p/firstblog/</loc>
-    <lastmod>2025-05-20T16:16:25+08:00</lastmod>
   </url><url>
     <loc>https://takagibit18.github.io/hugo-dev/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
@@ -89,6 +65,24 @@
   </url><url>
     <loc>https://takagibit18.github.io/hugo-dev/p/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://takagibit18.github.io/hugo-dev/post/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://takagibit18.github.io/hugo-dev/zh-cn/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://takagibit18.github.io/hugo-dev/ar/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://takagibit18.github.io/hugo-dev/post/"
+                />
   </url><url>
     <loc>https://takagibit18.github.io/hugo-dev/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
@@ -152,9 +146,6 @@
     <loc>https://takagibit18.github.io/hugo-dev/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://takagibit18.github.io/hugo-dev/p/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://takagibit18.github.io/hugo-dev/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -173,6 +164,8 @@
                 hreflang="en"
                 href="https://takagibit18.github.io/hugo-dev/about/"
                 />
+  </url><url>
+    <loc>https://takagibit18.github.io/hugo-dev/p/</loc>
   </url><url>
     <loc>https://takagibit18.github.io/hugo-dev/links/</loc>
   </url><url>
