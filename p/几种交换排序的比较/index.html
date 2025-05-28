@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="这是一个测试\n">
-<title>测试博客</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1.冒泡排序 1.1单向起泡排序法和双向起泡排序法 单向冒泡排序从数组一端开始，逐步将最大（或最小）元素“冒泡”到另一端，每轮只向一个方向比较和交换。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 void bubbleSort(int arr[], int n) { for (int i = 0; i &lt; n - 1; i++) { int swapped = 0; //标记是否发生交换 for (int j = 0; j &lt; n - 1 - i; j++) { if (arr[j] &gt; arr[j + 1]) { int temp = arr[j]; arr[j] = arr[j + 1]; arr[j + 1] = temp; swapped = 1; } } if (!swapped) break; // 若无交换，数组已排序 } } 双向冒泡排序从两端向中间进行，交替执行从左到右和从右到左的冒泡操作。\n">
+<title>几种交换排序的比较</title>
 
-<link rel='canonical' href='https://takagibit18.github.io/hugo-dev/p/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/'>
+<link rel='canonical' href='https://takagibit18.github.io/hugo-dev/p/%E5%87%A0%E7%A7%8D%E4%BA%A4%E6%8D%A2%E6%8E%92%E5%BA%8F%E7%9A%84%E6%AF%94%E8%BE%83/'>
 
-<link rel="stylesheet" href="/hugo-dev/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="测试博客">
-<meta property='og:description' content="这是一个测试\n">
-<meta property='og:url' content='https://takagibit18.github.io/hugo-dev/p/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/'>
+<link rel="stylesheet" href="/hugo-dev/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="几种交换排序的比较">
+<meta property='og:description' content="1.冒泡排序 1.1单向起泡排序法和双向起泡排序法 单向冒泡排序从数组一端开始，逐步将最大（或最小）元素“冒泡”到另一端，每轮只向一个方向比较和交换。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 void bubbleSort(int arr[], int n) { for (int i = 0; i &lt; n - 1; i++) { int swapped = 0; //标记是否发生交换 for (int j = 0; j &lt; n - 1 - i; j++) { if (arr[j] &gt; arr[j + 1]) { int temp = arr[j]; arr[j] = arr[j + 1]; arr[j + 1] = temp; swapped = 1; } } if (!swapped) break; // 若无交换，数组已排序 } } 双向冒泡排序从两端向中间进行，交替执行从左到右和从右到左的冒泡操作。\n">
+<meta property='og:url' content='https://takagibit18.github.io/hugo-dev/p/%E5%87%A0%E7%A7%8D%E4%BA%A4%E6%8D%A2%E6%8E%92%E5%BA%8F%E7%9A%84%E6%AF%94%E8%BE%83/'>
 <meta property='og:site_name' content='Sean&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-05-26T15:58:57&#43;08:00'/><meta property='article:modified_time' content='2025-05-26T15:58:57&#43;08:00'/>
-<meta name="twitter:title" content="测试博客">
-<meta name="twitter:description" content="这是一个测试\n">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-05-26T16:12:53&#43;08:00'/><meta property='article:modified_time' content='2025-05-26T16:12:53&#43;08:00'/>
+<meta name="twitter:title" content="几种交换排序的比较">
+<meta name="twitter:description" content="1.冒泡排序 1.1单向起泡排序法和双向起泡排序法 单向冒泡排序从数组一端开始，逐步将最大（或最小）元素“冒泡”到另一端，每轮只向一个方向比较和交换。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 void bubbleSort(int arr[], int n) { for (int i = 0; i &lt; n - 1; i++) { int swapped = 0; //标记是否发生交换 for (int j = 0; j &lt; n - 1 - i; j++) { if (arr[j] &gt; arr[j + 1]) { int temp = arr[j]; arr[j] = arr[j + 1]; arr[j + 1] = temp; swapped = 1; } } if (!swapped) break; // 若无交换，数组已排序 } } 双向冒泡排序从两端向中间进行，交替执行从左到右和从右到左的冒泡操作。\n">
     </head>
     <body class="
     article-page
@@ -268,7 +268,51 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1冒泡排序">1.冒泡排序</a>
+      <ul>
+        <li><a href="#11单向起泡排序法和双向起泡排序法">1.1单向起泡排序法和双向起泡排序法</a></li>
+        <li><a href="#12单链表的冒泡排序">1.2单链表的冒泡排序</a></li>
+        <li><a href="#13将所有奇数调的偶数之前">1.3将所有奇数调的偶数之前</a></li>
+      </ul>
+    </li>
+    <li><a href="#2快速排序">2.快速排序</a>
+      <ul>
+        <li><a href="#21快速排序的过程">2.1快速排序的过程</a></li>
+        <li><a href="#22找出第k小的数据">2.2找出第k小的数据</a></li>
+        <li><a href="#23用快速排序的思想分解数据">2.3用快速排序的思想分解数据</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="main-article">
@@ -287,7 +331,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/hugo-dev/p/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/">测试博客</a>
+            <a href="/hugo-dev/p/%E5%87%A0%E7%A7%8D%E4%BA%A4%E6%8D%A2%E6%8E%92%E5%BA%8F%E7%9A%84%E6%AF%94%E8%BE%83/">几种交换排序的比较</a>
         </h2>
     
         
@@ -324,7 +368,7 @@
 
 
                 <time class="article-time--reading">
-                    1 minute read
+                    2 minute read
                 </time>
             </div>
         
@@ -339,8 +383,120 @@
     <section class="article-content">
     
     
-    <p>这是一个测试</p>
-
+    <h2 id="1冒泡排序">1.冒泡排序
+</h2><h3 id="11单向起泡排序法和双向起泡排序法">1.1单向起泡排序法和双向起泡排序法
+</h3><p>单向冒泡排序从数组一端开始，逐步将最大（或最小）元素“冒泡”到另一端，每轮只向一个方向比较和交换。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">void bubbleSort(int arr[], int n) {
+</span></span><span class="line"><span class="cl">    for (int i = 0; i &lt; n - 1; i++) {
+</span></span><span class="line"><span class="cl">        int swapped = 0; //标记是否发生交换
+</span></span><span class="line"><span class="cl">        for (int j = 0; j &lt; n - 1 - i; j++) {
+</span></span><span class="line"><span class="cl">            if (arr[j] &gt; arr[j + 1]) {
+</span></span><span class="line"><span class="cl">                int temp = arr[j];
+</span></span><span class="line"><span class="cl">                arr[j] = arr[j + 1];
+</span></span><span class="line"><span class="cl">                arr[j + 1] = temp;
+</span></span><span class="line"><span class="cl">                swapped = 1;
+</span></span><span class="line"><span class="cl">            }
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">        if (!swapped) break; // 若无交换，数组已排序
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>双向冒泡排序从两端向中间进行，交替执行从左到右和从右到左的冒泡操作。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">void cocktailSort(int arr[], int n) {
+</span></span><span class="line"><span class="cl">    int left = 0, right = n - 1;
+</span></span><span class="line"><span class="cl">    int swapped = 1; // 标记是否发生交换
+</span></span><span class="line"><span class="cl">    while (swapped &amp;&amp; left &lt; right) {
+</span></span><span class="line"><span class="cl">        swapped = 0;
+</span></span><span class="line"><span class="cl">        // 从左到右冒泡，寻找最大值
+</span></span><span class="line"><span class="cl">        for (int i = left; i &lt; right; i++) {
+</span></span><span class="line"><span class="cl">            if (arr[i] &gt; arr[i + 1]) {
+</span></span><span class="line"><span class="cl">                int temp = arr[i];
+</span></span><span class="line"><span class="cl">                arr[i] = arr[i + 1];
+</span></span><span class="line"><span class="cl">                arr[i + 1] = temp;
+</span></span><span class="line"><span class="cl">                swapped = 1;
+</span></span><span class="line"><span class="cl">            }
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">        right--; 
+</span></span><span class="line"><span class="cl">        if (!swapped) break; // 若无交换，数组已排序
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        swapped = 0;
+</span></span><span class="line"><span class="cl">        // 从右到左冒泡，寻找最小值
+</span></span><span class="line"><span class="cl">        for (int i = right; i &gt; left; i--) {
+</span></span><span class="line"><span class="cl">            if (arr[i] &lt; arr[i - 1]) {
+</span></span><span class="line"><span class="cl">                int temp = arr[i];
+</span></span><span class="line"><span class="cl">                arr[i] = arr[i - 1];
+</span></span><span class="line"><span class="cl">                arr[i - 1] = temp;
+</span></span><span class="line"><span class="cl">                swapped = 1;
+</span></span><span class="line"><span class="cl">            }
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">        left++;
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>两种排序的比较：
+时间复杂度：平均和最坏情况两种排序方式均为 O(n²)，但双向冒泡在初始序列部分有序（如“1 2 3 4 5 10 6”这种数组）的情况下可能减少交换次数。
+空间复杂度：两者均为 O(1)。</p>
+<h3 id="12单链表的冒泡排序">1.2单链表的冒泡排序
+</h3><h3 id="13将所有奇数调的偶数之前">1.3将所有奇数调的偶数之前
+</h3><h2 id="2快速排序">2.快速排序
+</h2><h3 id="21快速排序的过程">2.1快速排序的过程
+</h3><h3 id="22找出第k小的数据">2.2找出第k小的数据
+</h3><h3 id="23用快速排序的思想分解数据">2.3用快速排序的思想分解数据
+</h3>
 </section>
 
 
